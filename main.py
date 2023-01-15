@@ -9,7 +9,7 @@ def main():
         url = (base_url+'?page={}').format(page)
         wallpaper_urls = get_wallpaper_urls(url)
         for wallpaper_url in wallpaper_urls:
-            start(wallpaper_url, save_path=r'C:\Users\18203\Pictures\Camera Roll')
+            start(wallpaper_url, save_path=r'./target/')
 
 
 if __name__ == "__main__":
