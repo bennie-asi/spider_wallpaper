@@ -34,3 +34,6 @@ if __name__ == "__main__":
     print(figures)
     #
     # print(soup.find('figure').find('a')['href'])
+
+
+
